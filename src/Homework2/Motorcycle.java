@@ -21,6 +21,6 @@ public class Motorcycle extends Vehicle {
     public int getYearRelease() { return yearRelease; }
     public int getNumWheels() { return numWheels; }
     public int getSpeed() { return speed; }
-    public String toString() { return "Машина выпущена " + this.company + " , год " + this.yearRelease
-            + " , модель " + this.model + ", количество колес " + this.numWheels;}
+    public String toString() { return "This car made by " + this.company + " , year " + this.yearRelease
+            + " , model " + this.model + ", wheels count " + this.numWheels;}
 }
